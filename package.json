@@ -1,0 +1,23 @@
+{
+  "name": "home-management-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -w & nodemon dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.6.4",
+    "dotenv": "^16.3.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@clerk/fastify": "^0.6.8",
+    "@fastify/static": "^6.11.2",
+    "fastify": "^4.23.2"
+  }
+}
